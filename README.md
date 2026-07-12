@@ -1,3 +1,8 @@
+# Youth NEET Analysis in Rwanda Using Labour Force Survey (LFS) 2025
+![Project Status](https://img.shields.io/badge/Project-Completed-success)
+![Language](https://img.shields.io/badge/Language-R-blue)
+![Topic](https://img.shields.io/badge/Topic-Youth%20Employment-orange)
+
 # Determinants of Youth NEET (Not in Employment, Education or Training) in Rwanda
 ### Evidence from the Rwanda Labour Force Survey (LFS) 2025
 
@@ -47,9 +52,10 @@ All estimates use the survey design weight (`survey_weight`) so that results are
 
 ### 4.1 Overall NEET prevalence
 
-![Overall NEET Prevalence](figures/Overall_NEET_Prevalence.png)
+<img width="466" height="240" alt="Overall_NEET_Prevalence" src="https://github.com/user-attachments/assets/fc5143e2-66d5-42d0-8b90-70c6abf13823" />
 
-**Table:** [`tables/Overall_NEET_Prevalence.csv`](tables/Overall_NEET_Prevalence.csv)
+
+**Table 1:**
 
 | Estimate | 95% CI Lower | 95% CI Upper |
 |---|---|---|
@@ -60,24 +66,24 @@ All estimates use the survey design weight (`survey_weight`) so that results are
 ---
 
 ### 4.2 NEET by residence (urban vs. rural)
+<img width="2400" height="1800" alt="NEET_Rate_by_Residence" src="https://github.com/user-attachments/assets/100c46ff-58cb-41db-b429-c8053403c5bd" />
 
-![NEET Rate by Residence](figures/NEET_Rate_by_Residence.jpg)
 
-**Table:** [`tables/NEET_by_Residence.csv`](tables/NEET_by_Residence.csv)
-
+**Table 2:**
 | Residence | NEET rate | SE |
 |---|---|---|
 | Rural | 26.7% | 0.51% |
 | Urban | 20.2% | 0.61% |
 
-**Interpretation:** Rural youth face a NEET rate about **6.5 percentage points higher** than urban youth (26.7% vs. 20.2%). This is consistent with Rwanda's rural labour market being dominated by low-productivity subsistence agriculture with fewer formal jobs, training centers, and non-farm opportunities. It reinforces the policy relevance of rural-focused interventions — such as digital access hubs and skills centers — for closing this urban–rural gap.
+**Interpretation:** Rural youth face a NEET rate about **6.5 percentage points higher** than urban youth (26.7% vs. 20.2%). This is consistent with Rwanda's rural labour market being dominated by low-productivity subsistence agriculture with fewer formal jobs, training centers, and non-farm opportunities. It reinforces the policy relevance of rural-focused interventions — such as digital access hubs and skills centers ,for closing this urban–rural gap.
 
 *(A supplementary early-stage version of this comparison is also included as* `figures/NEET_by_Location.jpg`*, showing the same urban/rural pattern.)*
 ### 4.3 NEET by province
+<img width="2400" height="1800" alt="NEET_Rate_by_Province" src="https://github.com/user-attachments/assets/c4ddf6f2-4234-47ed-8385-95e13be1a485" />
 
-![NEET Rate by Province](figures/NEET_Rate_by_Province.jpg)
 
-**Table:** [`tables/NEET_by_Province.csv`](tables/NEET_by_Province.csv)
+
+**Table 3:** 
 
 | Province | NEET rate | SE |
 |---|---|---|
@@ -89,10 +95,14 @@ All estimates use the survey design weight (`survey_weight`) so that results are
 
 **Interpretation:** The **Southern Province has the highest NEET burden (29.4%)**, roughly 9 percentage points above the City of Kigali, which has the lowest rate (20.2%). This gradient largely tracks the urban–rural divide: Kigali is the most urbanized province with the greatest concentration of formal employment, education, and training institutions, while the Southern Province is more rural and agriculture-dependent. The Western and Eastern Provinces sit close to the national average, while the Northern Province performs only slightly better.
 ### 4.4 NEET by district
+<img width="2700" height="3600" alt="NEET_Rate_by_District" src="https://github.com/user-attachments/assets/20a3a149-613f-4511-97d9-d86ae6c4a0bc" />
 
-![NEET Rate by District](figures/NEET_Rate_by_District.jpg)
 
-**Table:** [`tables/NEET_by_District.csv`](tables/NEET_by_District.csv)
+
+
+
+
+**Table 4:** 
 
 **Highest NEET districts:**
 | District | NEET rate |
@@ -115,24 +125,30 @@ All estimates use the survey design weight (`survey_weight`) so that results are
 **Interpretation:** District-level results show wide variation — from **17.9% in Nyabihu to 35.6% in Gisagara**, a spread of nearly 18 percentage points. The four districts of Kigali City (Nyarugenge, Kicukiro, Gasabo) and several Northern districts (Rulindo, Burera, Nyabihu) consistently perform better than the national average, again reflecting proximity to urban labour markets. In contrast, several Southern Province districts (Gisagara, Nyaruguru, Muhanga) anchor the high end of the distribution, confirming that province-level averages mask even sharper local disparities that district-targeted policy should address. Notably, **Huye district — the seat of the University of Rwanda's CBE campus — sits close to the national average at 25.6%**, indicating that even areas with strong tertiary education infrastructure still carry a meaningful youth exclusion burden in their surrounding population.
 ### 4.5 NEET by sex
 
-![NEET Rate by Sex](figures/NEET_Rate_by_Sex.jpg)
+<img width="2400" height="1800" alt="NEET_Rate_by_Sex" src="https://github.com/user-attachments/assets/ff224a79-db66-4ca9-8ee1-6bb23d86d6c0" />
 
-**Interpretation:** The chart shows a **gender gap in NEET status**, with young women recording a higher NEET rate than young men. This pattern is common across many labour markets and is typically linked to unpaid domestic and care responsibilities, early marriage/childbearing, and lower rates of continued schooling or vocational training among young women in some communities. It points to the need for gender-responsive youth employment programming — for example, flexible-hours training or childcare-linked skills programs — rather than one-size-fits-all interventions.
+
+
+**Interpretation:** The chart shows a **gender gap in NEET status**, with young women recording a higher NEET rate than young men. This pattern is common across many labour markets and is typically linked to unpaid domestic and care responsibilities, early marriage/childbearing, and lower rates of continued schooling or vocational training among young women in some communities. It points to the need for gender-responsive youth employment programming ,for example, flexible-hours training or childcare-linked skills programs ,rather than one-size-fits-all interventions.
 ### 4.6 NEET by sex and residence (interaction)
 
-![NEET Rate by Sex and Residence](figures/NEET_Rate_by_Sex_and_Residence.jpg)
+<img width="2400" height="1800" alt="NEET_Rate_by_Sex_and_Residence" src="https://github.com/user-attachments/assets/480e394d-ad1c-44f6-9ce4-bb8baae35338" />
 
-**Interpretation:** Disaggregating sex by residence shows that the **rural–urban gap and the female disadvantage compound each other**: rural young women face the combined burden of the rural employment disadvantage and the gender gap in NEET, making them the most exposed group. Urban young men, by contrast, generally show the lowest NEET exposure. This intersectional pattern is important for targeting — a program addressing only "rural youth" or only "young women" separately would miss this compounding effect on rural young women specifically.
+
+
+**Interpretation:** Disaggregating sex by residence shows that the **rural–urban gap and the female disadvantage compound each other**: rural young women face the combined burden of the rural employment disadvantage and the gender gap in NEET, making them the most exposed group. Urban young men, by contrast, generally show the lowest NEET exposure. This intersectional pattern is important for targeting , a program addressing only "rural youth" or only "young women" separately would miss this compounding effect on rural young women specifically.
 ### 4.7 NEET by education level
 
-![NEET Rate by Education Level](figures/NEET_Rate_by_Education_Level.jpg)
+<img width="2400" height="1800" alt="NEET_Rate_by_Education_Level" src="https://github.com/user-attachments/assets/cd9e09a9-7d36-42ac-82d4-7e8e47d63495" />
+
 
 **Interpretation:** NEET rates decline noticeably as education level rises, with youth who completed **university/tertiary education showing the lowest NEET exposure**, while those with **no education or only primary schooling show comparatively higher NEET rates**. This descriptive pattern is corroborated more rigorously by the regression results below (Section 4.8), where university education is the only education category with a statistically significant, protective association with NEET status
-### 4.8 Logistic regression — determinants of NEET status
+### 4.8 Logistic regression , determinants of NEET status
 
-![Logistic Regression Odds Ratios](figures/Logistic_Regression.png)
+<img width="1612" height="924" alt="Logistic_Regression" src="https://github.com/user-attachments/assets/97cffdc3-b761-4bfc-9b70-be835a01994a" />
 
-**Table:** [`tables/Logistic_Regression.csv`](tables/Logistic_Regression.csv)
+
+**Table 5 :** 
 
 | Predictor | Odds Ratio | 95% CI | p-value | Significant? |
 |---|---|---|---|---|
@@ -148,12 +164,12 @@ All estimates use the survey design weight (`survey_weight`) so that results are
 
 **Interpretation:**
 
-- **University education is the strongest protective factor identified in the model.** Holding other factors constant, youth with university education have about **47% lower odds of being NEET** than the reference education group (OR = 0.53, p = 0.012). This is the clearest, statistically significant education effect in the model — lower levels of education (none, primary, upper secondary) show no significant difference from the reference category, suggesting that in Rwanda's labour market, it is specifically **completing tertiary education**, not incremental schooling gains below that level, that meaningfully shifts NEET risk.
+- **University education is the strongest protective factor identified in the model.** Holding other factors constant, youth with university education have about **47% lower odds of being NEET** than the reference education group (OR = 0.53, p = 0.012). This is the clearest, statistically significant education effect in the model , lower levels of education (none, primary, upper secondary) show no significant difference from the reference category, suggesting that in Rwanda's labour market, it is specifically **completing tertiary education**, not incremental schooling gains below that level, that meaningfully shifts NEET risk.
 - **Urban residence is the second strongest, and most statistically robust, protective factor.** Urban youth have about **40% lower odds of being NEET** than rural youth (OR = 0.60, p < 0.001), consistent with the descriptive residence gap in Section 4.2. This is the most precisely estimated effect in the model (narrowest confidence interval, smallest p-value), underscoring the depth of Rwanda's rural–urban youth employment divide.
 - **Disability shows a positive but statistically insignificant association** (OR = 1.52, p = 0.242) — the direction suggests youth with disabilities may face higher NEET risk, but the wide confidence interval (0.75–3.06) means this cannot be confirmed with confidence in this sample, likely due to a small subsample of youth with disabilities.
-- **TVET attendance, household size, and migrant status show no statistically significant association** with NEET status once education and residence are accounted for. This suggests that, in this model, broad access to any TVET (rather than a specific level/type of it) is not by itself sufficient to significantly change NEET outcomes — a nuance worth exploring with a more detailed TVET-quality or TVET-completion variable in future work.
+- **TVET attendance, household size, and migrant status show no statistically significant association** with NEET status once education and residence are accounted for. This suggests that, in this model, broad access to any TVET (rather than a specific level/type of it) is not by itself sufficient to significantly change NEET outcomes , a nuance worth exploring with a more detailed TVET-quality or TVET-completion variable in future work.
 
-**Overall takeaway:** The results point to a **dual policy lever**: (1) expanding **access to and completion of university-level education**, and (2) **closing the rural–urban opportunity gap** — e.g., through rural-based digital and enterprise hubs, decentralized services, and non-farm rural employment — as the two most evidence-backed levers for reducing youth NEET in Rwanda.
+**Overall takeaway:** The results point to a **dual policy lever**: (1) expanding **access to and completion of university-level education**, and (2) **closing the rural–urban opportunity gap** e.g., through rural-based digital and enterprise hubs, decentralized services, and non-farm rural employment , as the two most evidence-backed levers for reducing youth NEET in Rwanda.
 ## 5. Policy relevance
 These findings speak directly to Rwanda's **Vision 2050** and **NST2** priorities on youth economic inclusion and human capital development:
 - The **rural–urban NEET gap** supports continued investment in decentralized digital and economic infrastructure (e.g., rural digital/enterprise hubs) to bring urban-equivalent opportunity closer to rural youth.
