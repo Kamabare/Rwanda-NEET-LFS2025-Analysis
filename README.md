@@ -8,14 +8,14 @@
 
 **Author:** SENYANA Emmanuel
 **Affiliation:** Student, Faculty of Economics, College of Business and Economics (CBE), University of Rwanda
-**Data source:** National Institute of Statistics of Rwanda (NISR) — Labour Force Survey 2025
+**Data source:** National Institute of Statistics of Rwanda (NISR) ,Labour Force Survey 2025
 **Population of interest:** Youth aged 16–30 years
 
 ---
 
 ## 1. Overview
 
-This repository presents a weighted analysis of youth NEET status in Rwanda using microdata from the **Rwanda Labour Force Survey (LFS) 2025**. NEET — young people who are Not in Employment, Education, or Training — is a core indicator of youth economic exclusion and is directly relevant to Rwanda's **Vision 2050** and **NST2** priorities on youth employment and human capital development.
+This repository presents a weighted analysis of youth NEET status in Rwanda using microdata from the **Rwanda Labour Force Survey (LFS) 2025**. NEET , young people who are Not in Employment, Education, or Training , is a core indicator of youth economic exclusion and is directly relevant to Rwanda's **Vision 2050** and **NST2** priorities on youth employment and human capital development.
 
 The analysis estimates:
 - The **overall national NEET prevalence** among youth aged 16–30
